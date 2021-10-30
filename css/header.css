@@ -1,0 +1,138 @@
+/* TopBar and Languages Dropdown CSS */
+
+.header-back-color {
+    background-color: black;
+}
+
+.top-bar-border {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.dropup-content {
+    background-color: lightgrey;
+    font-size: 12px;
+    color: black;
+    border: 0;
+    text-align: center;
+}
+
+#topbar {
+    display: none;
+    font-size: 12px;
+}
+
+#phone {
+    display: none;
+    font-size: 12px;
+}
+
+#topbar2 {
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#showtopbar {
+    font-size: 12px;
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+}
+
+#english {
+    background-color: grey;
+    width: 135px;
+    height: 35px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#english:hover {
+    background-color: lightgrey;
+}
+
+#right {
+    float: right;
+}
+
+#rtl {
+    background-color: grey;
+    width: 135px;
+    height: 35px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#rtl:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    #phone {
+        display: block;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    #topbar {
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    #top-icons {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #topbar {
+        display: block;
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    #topbar2 {
+        display: none;
+    }
+
+    #showtopbar {
+        display: none;
+    }
+
+    #top-icons {
+        text-align: right;
+    }
+}
+
+.topbar-icons {
+    width: 20px;
+    height: 20px;
+}
+

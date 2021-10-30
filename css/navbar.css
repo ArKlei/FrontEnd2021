@@ -1,0 +1,403 @@
+.navbar {
+    display: none;
+}
+
+.navbar-button {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-img {
+    padding: 10px 90px;
+	width:50px;
+	height:auto;
+}
+
+#navbar-img2 {
+    padding: 10px 90px;
+	width:30px;
+	height:auto;
+}
+
+#open-navbar {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 10px 80px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+#open-navbar:hover {
+    color: rgb(68,114,196);
+    transition: all 0.8s ease-in;
+}
+
+#open-navsearcher {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 10px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+#open-navsearcher:hover {
+    color: black;
+	font-weight:bold;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-text {
+    text-transform: uppercase;
+    padding:5px;
+    font-size: 0.8rem;
+    color: rgb(68,114,196);
+}
+
+.navbar-text:hover {
+    color: black;
+	padding:5px;
+	border:1px solid black;
+	border-radius:15px;
+	font-weight:bold;
+    transition: all 0.8s ease-in;
+}
+
+#navbar-searcher {
+    display: none;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 5px;
+    float: left;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    overflow: hidden;
+    background-color: white;
+}
+
+#navbar-zoom {
+    display: block;
+    float: left;
+    color: blue;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+}
+
+#navbar-form {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    border: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#navbar-shopping {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 10px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+#shoppingamount {
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 74%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    color: grey;
+    font-size: 8px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    z-index:2;
+}
+
+#navbar-shopping:hover {
+    color: rgb(68,114,196);
+    transition: all 0.5s ease-in;
+}
+
+.dropdown2 {
+    position: relative;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top:169%;
+    left:0;
+    background-color: black;
+    color:black;
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    text-decoration: none;
+}
+
+.v1 {
+    background-color: rgb(19,24,26);
+    text-align: left;
+    color: white;
+    padding: 15px;
+    border-bottom:1px solid darkgrey;
+    border-collapse: collapse;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.v1:hover {
+    background-color: black;
+}
+
+
+.dropdown3 {
+    position: relative;
+    display:block;
+
+}
+
+#dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top:160%;
+    left:-440%;
+    z-index: 999;
+}
+
+#dropdown-content3 a {
+    text-decoration: none;
+}
+
+#shop1 {
+    width:300px;
+    height:50px;
+    background-color: #f9f9f9;
+    text-align: left;
+    color: black;
+    padding: 15px;
+    border:1px solid lightgrey;
+}
+
+.shop2 {
+    position:relative;
+    width:300px;
+    height:85px;
+    background-color: white;
+    text-align: left;
+    color: black;
+    padding: 15px 5px 15px 25px;
+    border-left:1px solid lightgrey;
+    border-right:1px solid lightgrey;
+}
+
+.shop-img {
+    display:block;
+    width:57px;
+    height:57px;
+    padding:5px;
+    background-color:white;
+    border:1px solid lightgrey;
+}
+
+.shop-text {
+    display:inline-block;
+    float:left;
+    line-height:2em;
+}
+
+.shop-text:hover {
+    color:blue;
+    transition: all 0.5s ease-in;
+}
+
+.cross {
+    position:absolute;
+    top:15%;
+    left:-3%;
+    color:lightgrey;
+    z-index:3;
+    text-align:center;
+    padding:2px;
+    width:20px;
+    height:20px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius:50%;
+}
+
+#shop3 {
+    position:relative;
+    width:300px;
+    height:70px;
+    background-color: #f9f9f9;
+    text-align: left;
+    color: black;
+    padding: 25px;
+    border:1px solid lightgrey;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    font-size:14px;
+}
+
+#cart {
+    position:absolute;
+    display:block;
+    top:20%;
+    left:60%;
+}
+
+
+@media screen and (min-width: 768px) {
+    #navbar-img {
+        padding: 10px 0 10px 20px;
+		width:100px;
+		height:auto;
+    }
+	#navbar-img2 {
+        padding: 10px 0 10px 20px;
+		width:170px;
+		height:auto;
+    }
+	
+
+    #open-navbar {
+        margin: 10px 5px;
+    }
+
+    #open-navsearcher {
+        margin: 10px 5px;
+    }
+
+    #navbar-shopping {
+        margin: 10px 5px;
+    }
+
+    #shoppingamount {
+        top: 4%;
+        left: 93%;
+    }
+
+    #dropdown-content3 {
+        top:160%;
+        left:-510%;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width: 992px) {
+	#navbar-img {
+        padding: 10px 0 10px 20px;
+		width:150px;
+		height:auto;
+	}
+	#navbar-img2 {
+        padding: 10px 0 10px 20px;
+		width:170px;
+		height:auto;
+    }
+	
+    #shoppingamount {
+        top: 6%;
+        left: 89%;
+    }
+
+    #dropdown-content3 {
+        top:160%;
+        left:-400%;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+	#navbar-img {
+    padding: 10px 0 10px 20px;
+	width:170px;
+	height:auto;
+	}
+	#navbar-img2 {
+        padding: 10px 0 10px 20px;
+		width:170px;
+		height:auto;
+    }
+    #open-navbar {
+        display: none;
+    }
+
+    #open-navsearcher {
+        display: none;
+    }
+
+    #navbar-searcher {
+        display: block;
+        margin: 0;
+    }
+
+    .navbar {
+        display: block
+    }
+
+    #navbar-shopping {
+        margin: 0 0 0 20px;
+    }
+
+    #shoppingamount {
+        top: 9%;
+        left: 92.5%;
+    }
+
+    .navbar-text {
+        text-transform: uppercase;
+        padding: 20px 10px;
+    }
+
+    #dropdown-content3 {
+        top:200%;
+        left:-430%;
+        z-index: 999;
+    }
+
+    @media screen and (min-width: 1366px) {
+        #shoppingamount {
+            top: 7%;
+            left: 87.75%;
+        }
+    }
+
+    @media screen and (min-width: 1367px) {
+        #shoppingamount {
+            display: none;
+        }
+    }
+}
+
+
+
+

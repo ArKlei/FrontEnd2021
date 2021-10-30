@@ -1,0 +1,89 @@
+.features {
+    background-color: #f9fafc;
+    padding: 20px;
+}
+
+.features-text:hover {
+    color: #1ccdca;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.features-text {
+    color: black;
+}
+
+.features-text2 {
+    color: grey;
+    line-height: 1.5em;
+}
+
+.features-icons {
+    font-size: 30px;
+    color: rgb(68,114,196);
+}
+
+.features-icons2 {
+    font-size: 30px;
+    color: white;
+}
+
+.features-overlay {
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(68,114,196);
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+    width: 85px;
+    height: 85px;
+}
+
+.to-overlay-features {
+    width: 100px;
+    height: 100px;
+    border: 0;
+}
+
+.with-overlay-features {
+    position: absolute;
+    background-color: rgb(68,114,196);
+    border: 1px solid rgb(68,114,196);
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    top: 42px;
+    left: 42px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+}
+
+.features-overlay:hover .with-overlay-features {
+    opacity: 1;
+    width: 85px;
+    height: 85px;
+}
+
+@media screen and (min-width: 768px) {
+    .features {
+        padding: 20px 100px 20px 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .features {
+        padding: 20px 100px 20px 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .features {
+        padding: 20px 0;
+    }
+}
