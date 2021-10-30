@@ -5,7 +5,7 @@
 .briefcase {
     width: 40px;
     height: 40px;
-    color: lightseagreen;
+    color: rgb(68,114,196);
     background-color: white;
     border: 1px solid white;
     font-size: 18px;
@@ -26,7 +26,7 @@
     background-color: white;
     border-radius: 10px 10px 1px 1px;
     font-size: 16px;
-    color: lightseagreen;
+    color: rgb(68,114,196);
 }
 
 .pricing-plans th:hover {
@@ -35,7 +35,7 @@
     border-radius: 10px 10px 1px 1px;
     text-align: center;
     font-size: 16px;
-    background-color: lightseagreen;
+    background-color: rgb(68,114,196);
     color: white;
     transition: 0.5s ease;
 }
@@ -53,7 +53,7 @@
     border-radius: 1px 1px 10px 10px;
     text-align: center;
     font-size: 16px;
-    color: lightseagreen;
+    color: rgb(68,114,196);
 }
 
 .trolley-icon {
