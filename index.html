@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Final Project 2021 HTML&CSS&JS</title>
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css"
+          integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css"
+          integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css"
+          integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css"
+          integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/ourskills.css">
+    <link rel="stylesheet" href="css/why.css">
+    <link rel="stylesheet" href="css/ourservices.css">
+    <link rel="stylesheet" href="css/pricingplans.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- JS links -->
+    <script src="js/header.js"></script>
+    <script src="js/navbar.js"></script>
+
+</head>
+
+<body>
+
+
+<!-- Begin Top bar -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid margin-0 padding-0 header-back-color">
+
+    <!-- Begin Container -->
+    <div class="container padding-0 center-block">
+
+        <!-- DropDown Meniu for All devices -->
+
+        <div id="topbar" class="dropup-content header-back-color col-xs-12 col-sm-12 margin-0 padding-0">
+            <div class="dropdown col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <i class="fas fa-globe-americas text-muted padding-10" style="color:black"></i> <a href="#" class="a-dec-none"><span
+                    class="dropbtn text-muted" style="color:black">LANGUAGE</span></a>
+
+                <!-- Languages Dropdown Menu -->
+
+                <div class="dropdown-content">
+                    <a href="#">
+                        <div id="english"><i>English</i>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div id="rtl"><i>Lietuvių</i></div>
+                    </a></div>
+            </div>
+			
+            <!-- Continue TopBar -->
+            <div id="phone" class="col-xs-0 col-sm-8 col-md-5 col-lg-6">
+                <i class="fas fa-phone padding-10"></i> CALL LITHUANIA: +37068410960 <i
+                    class="far fa-comment padding-5" style="padding-left:20px"></i>
+                SUPPORT: 24/7/365
+            </div>
+            <div id="top-icons" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a href="https://www.facebook.com" class="a-dec-none"><i
+                        class="fab fa-facebook-f text-muted padding-10"> </i></a>
+                <a href="https://www.twitter.com" class="a-dec-none"><i
+                        class="fab fa-twitter text-muted padding-10"> </i></a>
+                <a href="https://www.google.com" class="a-dec-none"><i
+                        class="fab fa-google-plus-g text-muted padding-10"> </i></a>
+                <a href="https://www.skype.com" class="a-dec-none"><i
+                        class="fab fa-skype text-muted padding-10"> </i></a>
+                <a href="https://www.instagram.com" class="a-dec-none"><i
+                        class="fab fa-instagram text-muted padding-10"> </i></a>
+                <a href="https://www.vimeo.com" class="a-dec-none">
+                    <i class="fab fa-vimeo-v text-muted padding-10"> </i></a>
+            </div>
+        </div>
+    </div> <!-- End Container -->
+
+    <!-- Button to Hide TopBar / Not visible since 992px -->
+
+    <div id="topbar2" class="col-xs-12 col-sm-12 col-md-0 col-lg-0">
+        <div onclick="hidetopbar()"
+             class="col-xs-12 col-sm-12 text-seagreen text-center top-bar-border"><i
+                class="fas fa-angle-double-up padding-5"></i>
+        </div>
+    </div>
+
+    <!-- Button to Show TopBar / Not visible since 992px -->
+
+    <div id="showtopbar" onclick="showtopbar()"
+         class="show-topbar col-xs-12 col-sm-12 text-seagreen text-center header-back-color top-bar-border">
+        <i class="fas fa-angle-double-down padding-5"></i>
+    </div>
+
+</div> <!-- End Container-fluid -->
+
+
+<!-- Begin Navigation Bar -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid padding-0 margin-0" style="border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container padding-0 center-block">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-2"><img
+                    src="images/logo.png" id="navbar-img">
+            </div>
+			<div class=""><img src="images/name.png" id="navbar-img2"></div>
+            <div class="navbar dropdown2 col-xs-0 col-sm-0 col-md-0 col-lg-7">
+				
+                <a href="#">
+                    <div class="navbar-button navbar-text text-muted">News</div>
+                </a>
+                <a href="#about_us">
+                    <div class="navbar-button navbar-text">About us</div>
+                </a>
+                <a href="#services">
+                    <div class="navbar-button navbar-text">Services</div>
+                </a>
+                <a href="#">
+                    <div class="navbar-button navbar-text">Plans</div>
+                </a>
+                <a href="#">
+                    <div class="navbar-button navbar-text">Blog</div>
+                </a>
+                <a href="#">
+                    <div class="navbar-button navbar-text">Contact us</div>
+                </a>
+            </div>   
+            <div id="open-navbar" class="col-xs-5 col-sm-1 col-md-1 padding-15">
+                <i class="fas fa-align-justify text-center"></i></div>
+            <div id="open-navsearcher" class="col-xs-2 col-sm-1 col-md-1 padding-15">
+                <i class="fas fa-search"></i></div>
+            <div id="navbar-searcher" class="col-xs-6 col-sm-5 col-md-5 col-lg-3">
+                <i class="fas fa-search" id="navbar-zoom"></i>
+                <input type="search" name="search" placeholder="Search Here ..." id="navbar-form" style="margin:0">
+            </div>
+            <div id="navbar-shopping" onclick="openshopping()" class="col-xs-5 col-sm-1 col-md-1 col-lg-1 padding-15">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Carousel = Container-fluid -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid padding-0 margin-0">
+
+    <div id="carousel" class="carousel slide" data-ride="carousel" style="padding:0">
+
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators" style="background-color:rgb(68,114,196);padding:5px 0 3px 0">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+
+        <div class="carousel-inner" style="padding:0">
+            <div class="item active">
+                <img src="images/slide1.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+
+            <div class="item">
+                <img src="images/slide2.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+
+            <div class="item">
+                <img src="images/slide3.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="left carousel-control" style="background-color:rgb(68,114,196)" href="#myCarousel"
+           data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" style="background-color:rgb(68,114,196)" href="#myCarousel"
+           data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+</div> <!-- End Container-fluid -->
+
+
+<!-- Begin About US -->
+
+<!-- Begin Container-fluid/container -->
+<div class="container-fluid darkest-grey" style="padding:0; margin:0; border-top:1px dashed rgb(50,53,56)">
+
+    <!-- Begin Container -->
+    <div class="container">
+
+        <div class="row text-center padding-30" id="about_us">
+            <h3 style="line-height:40px"><strong>ABOUT US</strong></h3>
+            <h4><span class="text-muted" style="color:rgb(170,170,170); line-height:29px; font-weight:lighter">
+                We started in 2021 and we are the team of achievers in coding. Best client's experience, best result and as possible as short time to produce website for client. 
+				<br>We proud to work with you. To be a part of your success. Trust us and we will force your business.</span></h4>
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+
+<!-- Begin Features of Template -->
+
+<!-- Begin Container-fluid/container -->
+<div class="container-fluid features">
+
+    <!-- Begin Container -->
+    <div class="container features padding-20">
+
+        <div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="features-overlay center-block"><i class="fas fa-tv  features-icons"></i>
+                                <div class="to-overlay-features">
+                                    <div class="with-overlay-features"><i class="fas fa-tv features-icons2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <a href="#" class="features-text"><h4 class="features-text  text-center">SUPER
+                                CODING</h4>
+                            </a>
+                            <h5 class="features-text2 text-center">We provide clean code service. Any time ease to check and modify. The code has stickt structure.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="features-overlay  center-block"><i
+                                    class="fas fa-tablet-alt  features-icons"></i>
+                                <div class="to-overlay-features">
+                                    <div class="with-overlay-features"><i
+                                            class="fas fa-tablet-alt features-icons2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <a href="#" class="features-text"><h4 class="features-text  text-center">BEST USER
+                                INTERFACE</h4></a>
+                            <h5 class="features-text2  text-center">
+							Our products based on responsive web design principles and practices. Webistes look perfect on any device.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="features-overlay  center-block"><i
+                                    class="fas fa-puzzle-piece features-icons"></i>
+                                <div class="to-overlay-features">
+                                    <div class="with-overlay-features"><i
+                                            class="fas fa-puzzle-piece  features-icons2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <a href="#" class="features-text"><h4 class="features-text  text-center">UNIQUE
+                                DESIGN</h4>
+                            </a>
+                            <h5 class="features-text2  text-center">Our team of designers provide any solutions you prefer. 
+							We don't have the limits of imagination and ideas.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+
+<!-- Begin Container-fluid/container -->
+<div class="container-fluid darkest-grey" style="padding:0; margin:0; border-top:1px dashed rgb(50,53,56)">
+
+    <!-- Begin Container -->
+    <div class="container">
+
+        <div class="row text-center padding-30" id="services">
+            <h3 style="line-height:40px"><strong>SERVICES</strong></h3>
+			<h4><span class="text-muted" style="color:rgb(170,170,170); line-height:29px; font-weight:lighter">
+                We are provide various services to clients. <br>Below you will find an information about our skills and reasons to trust us.</span></h4>
+          
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+<!-- Why Choose and Work With Us part -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid why-work" style="border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container why-work">
+
+        <div class="row" id="why" style="clear:both">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                <h2 style="color:rgb(50,69,69); padding:0">WHY YOU SHOULD CHOOSE US?
+                </h2>
+                <br>
+                <div class="row" style="padding-left:80px">
+                    <!--<div class="why-div-overlay">
+                        <div class="why-div2-overlay">
+                            <div class="why-circle"></div>
+                        </div>
+                    </div>-->
+                </div>
+
+
+                <div class="row">
+
+                    <ul id="why-li" class="nav nav-tabs">
+                        <li class="active why-li" style="color:grey;"><a data-toggle="tab" href="#home"
+                                                                         class="why-li"
+                                                                         style="color:grey;">Quality</a></li>
+                        <li class="why-li"><a data-toggle="tab" href="#menu1" class="why-li"
+                                              style="color:grey;">Design</a></li>
+                        <li class="why-li"><a data-toggle="tab" href="#menu2" class="why-li"
+                                              style="color:grey;">Coding</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div id="home" class="tab-pane fade in active why-tab">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted padding-20"
+                                     style="line-height:1.8em">
+                                    <h5 style="line-height:1.5em">We ensure the strongest teamwork on a project.
+                                    </h5>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Effective page
+                                    structuring
+                                    by
+                                    HTML5<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Best practices in CSS
+                                    coding<br>
+                                    <i class="fas fa-arrow-circle-right  text-success"></i> Responsive web
+                                    design<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Attention to graphic
+                                    design<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Last software and
+                                    instruments<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Standarts and
+                                    frameworks<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Bootstrap usage to fasten
+                                    work<br>
+                                    <i class="fas fa-arrow-circle-right text-success"></i> Debugging and problem
+                                    solving<br>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted why-img-overlay"
+                                     style="line-height:2em">
+                                    <a href="finalProject.html" title="We ensure quality"><img
+                                            src="images/quality.jpg" class="why-img">
+                                        <div class="why-overlay">
+                                            <div class="why-text"><i class="fas fa-search"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="menu1" class="tab-pane fade why-tab">
+                            <div class="row">
+
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted  padding-20"
+                                     style="line-height:1.8em">
+                                    <h5 style="line-height:1.5em">Best design ideas and skills to realize
+                                        yourself. No one design is best, all kind of ideas creative.
+                                    </h5>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Page structuring according
+                                    to
+                                    idea<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Best practices CSS and
+                                    graphics<br>
+                                    <i class="fas fa-arrow-circle-right  text-danger"></i> Responsive graphic design<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Attention to details<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Last software and
+                                    instruments<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Standarts and
+                                    frameworks<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Fotographics and
+                                    videographics<br>
+                                    <i class="fas fa-arrow-circle-right text-danger"></i> Idea creation and
+                                    implementation<br>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted why-img-overlay"
+                                     style="line-height:2em">
+                                    <a href="finalProject.html" title="We create ideas"><img
+                                            src="images/design.jpg" class="why-img">
+                                        <div class="why-overlay" style="background-color:lightcoral">
+                                            <div class="why-text"><i class="fas fa-paint-brush"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu2" class="tab-pane fade why-tab">
+                            <div class="row">
+
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted  padding-20"
+                                     style="line-height:1.8em">
+                                    <h5 style="line-height:1.5em">Experience let apply various
+                                        syntaxes and languages: HTML5, Javascript, CSS3, PHP, frameworks.
+                                    </h5>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Coding language according to
+                                    idea<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Best practices in coding<br>
+                                    <i class="fas fa-arrow-circle-right  text-info"></i> Responsive web coding<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Easy reading and loading<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Last software and
+                                    practices<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Standarts and
+                                    frameworks<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Optimal combinations<br>
+                                    <i class="fas fa-arrow-circle-right text-info"></i> Idea realization in best way<br>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-muted why-img-overlay"
+                                     style="line-height:2em">
+                                    <a href="finalProject.html" title="We coding your needs"><img
+                                            src="images/programming.jpg" class="why-img">
+                                        <div class="why-overlay" style="background-color:lightblue">
+                                            <div class="why-text"><i class="fab fa-node-js"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="why-padding">
+
+                <h2 style="color:rgb(50,69,69)">WHY YOU SHOULD TRUST US?
+                </h2>
+                <div class="row" style="padding:40px 0 45px 80px">
+                    <!--<div class="why-div-overlay">
+                        <div class="why-div2-overlay">
+                            <div class="why-circle"></div>
+                        </div>
+                    </div>-->
+                </div>
+
+                <button class="collapsible"><i class="far fa-question-circle text-lightblue"></i> ONLINE SUPPORT
+                    24/7
+                </button>
+                <div class="content">
+                    Online support to any partners. Fast and effective problem solving. No difficult issues
+                    with us.
+                </div>
+                <button class="collapsible"><i class="fab fa-algolia text-blue"></i> PRECISE TERMS</button>
+                <div class="content">
+                    We keep strict terms. No delay in service. You get what expected. The most important for us is
+                    reputation.
+                </div>
+                <button class="collapsible"><i class="fas fa-users text-blue"></i> ATTENTION TO CLIENT NEEDS
+                </button>
+                <div class="content">
+                    We hear client needs. We propose our idea or base on clients vision. Together we may do more.
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Website Counter -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid website-counter" style="padding:0; margin:0; border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container website-counter">
+
+        <div id="counter">
+
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+
+
+<!-- Why Choose and Work With Us part -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid why-work" style="border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container why-work">
+
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Website Counter -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid website-counter" style="padding:0; margin:0; border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container website-counter">
+
+        <div id="counter">
+
+        </div>
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Our Services -->
+<!-- Begin Container-fluid -->
+<div class="container-fluid our_services" style="border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container our_services">
+
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Pricing Plans -->
+<!-- Begin Container-fluid -->
+<div class="container-fluid pricing-plans" style="padding:0; margin:0; border-top:1px solid lightgrey">
+
+    <!-- Begin Container -->
+    <div class="container pricing-plans">
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Contact Us -->
+
+<!-- Begin Container-fluid -->
+<div class="container-fluid contact_us" style="padding:0; margin:0; border-top:1px solid lightgrey">
+
+	<!-- Begin Container -->
+    <div class="container contact_us" id="contact_us">
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Our Location -->
+<!-- Begin Container-fluid  -->
+<div class="container-fluid our-location" style="padding:0; margin:0">
+
+</div> 
+<!-- End Container-fluid -->
+
+
+<!-- Begin Footer = Container -->
+<!-- Container-fluid -->
+<div class="container-fluid darkest-grey" style="border-top:1px dashed rgb(50,53,56)">
+
+    <!-- Begin Container -->
+    <div class="container darkest-grey">
+
+    </div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
+
+
+<!-- Why Work part -->
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active2");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
