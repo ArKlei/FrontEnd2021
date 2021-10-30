@@ -1,0 +1,241 @@
+.pricing-plans {
+    background-color: white;
+}
+
+.briefcase {
+    width: 40px;
+    height: 40px;
+    color: lightseagreen;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pricing-plans th {
+    padding: 70px 65px 25px 65px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px 10px 1px 1px;
+    font-size: 16px;
+    color: lightseagreen;
+}
+
+.pricing-plans th:hover {
+    padding: 70px 65px 25px 65px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px 10px 1px 1px;
+    text-align: center;
+    font-size: 16px;
+    background-color: lightseagreen;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.pricing-plans td {
+    padding: 15px 65px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.trolley {
+    padding: 30px 65px 30px 65px;
+    border: 1px solid #f0f0f0;
+    border-radius: 1px 1px 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: lightseagreen;
+}
+
+.trolley-icon {
+    display: block;
+    margin: auto;
+    color: grey;
+    width: 130px;
+    height: 45px;
+    border: 2px solid #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.trolley-icon:hover {
+    display: block;
+    margin: auto;
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: #576262;
+    border: 2px solid #576262;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.pricing-plans a:hover {
+    text-decoration: none;
+}
+
+.pricing-plans table {
+    margin: 40px 0 40px 0;
+}
+
+#pricing-plans {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .pricing-plans th {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans th:hover {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans td {
+        padding: 15px 65px;
+        font-size: 14px;
+    }
+
+    .trolley {
+        padding: 30px 65px 30px 65px;
+        font-size: 16px;
+    }
+
+    .trolley-icon {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .trolley-icon:hover {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .pricing-plans table {
+        margin: 50px 0 70px 0;
+    }
+
+    #pricing-plans {
+        padding-top: 0;
+    }
+
+    .plans {
+        padding:0 220px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .pricing-plans th {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans th:hover {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans td {
+        padding: 15px 65px;
+        font-size: 14px;
+    }
+
+    .trolley {
+        padding: 30px 65px 30px 65px;
+        font-size: 16px;
+    }
+
+    .trolley-icon {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .trolley-icon:hover {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .pricing-plans table {
+        margin: 50px 0 70px 0;
+    }
+
+    #pricing-plans {
+        padding-top: 0;
+    }
+
+    .plans {
+        padding:0 70px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .pricing-plans th {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans th:hover {
+        padding: 70px 65px 25px 65px;
+        font-size: 16px;
+    }
+
+    .pricing-plans td {
+        padding: 15px 65px;
+        font-size: 14px;
+    }
+
+    .trolley {
+        padding: 30px 65px 30px 65px;
+        font-size: 16px;
+    }
+
+    .trolley-icon {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .trolley-icon:hover {
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .pricing-plans table {
+        margin: 50px 0 70px 0;
+    }
+
+    #pricing-plans {
+        padding-top: 0;
+    }
+
+    .plans {
+        padding:0 70px;
+    }
+}
