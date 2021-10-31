@@ -108,7 +108,7 @@ p {
   color: black; }
 
 .text-seagreen {
-  color: blue; }
+  color: rgb(68,114,196); }
 
 .text-white {
   color:white;
@@ -121,11 +121,11 @@ p {
 ::-moz-selection {
   /* Code for Firefox */
   color: white;
-  background: blue; }
+  background: rgb(68,114,196); }
 
 ::selection {
   color: white;
-  background: blue; }
+  background: rgb(68,114,196); }
 
 .div-overlay {
   position: relative;
