@@ -140,11 +140,11 @@
                 <a href="#pricing-plans">
                     <div class="navbar-button navbar-text">Plans</div>
                 </a>
-                <a href="#">
-                    <div class="navbar-button navbar-text">Blog</div>
-                </a>
-                <a href="#">
+                <a href="#contact_us">
                     <div class="navbar-button navbar-text">Contact us</div>
+                </a>
+                <a href="#location">
+                    <div class="navbar-button navbar-text">Location</div>
                 </a>
             </div>   
             <div id="open-navbar" class="col-xs-5 col-sm-1 col-md-1 padding-15">
@@ -674,38 +674,158 @@
     </div> <!-- End Container -->
 </div> <!-- End Container-fluid -->
 
+<!-- Begin Container-fluid/container -->
+<div class="container-fluid darkest-grey" style="padding:0; margin:0; border-top:1px dashed rgb(50,53,56)">
 
+    <!-- Begin Container -->
+    <div class="container">
+
+        <div class="row text-center padding-30" id="contact_us">
+            <h3 style="line-height:40px"><strong>CONTACT US</strong></h3>
+			<h4><span class="text-muted" style="color:rgb(170,170,170); line-height:29px; font-weight:lighter">
+                We are everywhere because we work remotely. <br>You may keep in touch with us from everywhere in a World.</span></h4>
+          
+        </div>
+		<div id="googleMap" style="height:400bpx;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+    <!-- Google Maps -->
+
+	</div> <!-- End Container -->
+</div> <!-- End Container-fluid -->
 
 <!-- Contact Us -->
-
 <!-- Begin Container-fluid -->
 <div class="container-fluid contact_us" style="padding:0; margin:0; border-top:1px solid lightgrey">
 
-	<!-- Begin Container -->
+    <!-- Begin Container -->
     <div class="container contact_us" id="contact_us">
+
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <br><br><h5 class="input-names">Your Name<span style="color:red">*</span></h5>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <form id="form1" target="_blank"><br>
+                    <input type="text" placeholder="Full Name">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <br><h5 class="input-names">Email Address<span style="color:red">*</span></h5>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <input type="email" placeholder="mail@sitename.com" form="form1" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <br><h5 class="input-names">Subject</h5>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <input type="text" form="form1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <br><h5 class="input-names">Message<span style="color:red">*</span></h5>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <input type="text" form="form1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="min-width:100px; min-height:10px"></div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <button title="Ok, ok ... disturb" type="submit" form="form1"><span
+                        class="glyphicon glyphicon-ok"></span> Send Your
+                    Message
+                </button>
+            </div>
+        </div>
 
     </div> <!-- End Container -->
 </div> <!-- End Container-fluid -->
 
-
 <!-- Our Location -->
-<!-- Begin Container-fluid  -->
-<div class="container-fluid our-location" style="padding:0; margin:0">
 
-</div> 
-<!-- End Container-fluid -->
+<!-- Begin Container-fluid/container -->
+<div class="container-fluid darkest-grey" id="location" style="padding:0; margin:0; border-top:1px dashed rgb(50,53,56)">
+
+    <!-- Begin Container -->
+    <div class="container">
+
+        <div class="row text-center padding-30" id="location">
+            <h3 style="line-height:40px"><strong>LOCATION</strong></h3>
+			<h4><span class="text-muted" style="color:rgb(170,170,170); line-height:29px; font-weight:lighter">
+                We are everywhere because we work remotely. <br>You may keep in touch with us from everywhere in a World.</span></h4>
+          
+        </div>
+
+    <div id="carousel_location" class="carousel slide" data-ride="carousel" style="padding:0">
+
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators" style="background-color:rgb(68,114,196);padding:5px 0 3px 0">
+            <li data-target="#carousel_location" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel_location" data-slide-to="1"></li>
+            <li data-target="#carousel_location" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+
+        <div class="carousel-inner" style="padding:0">
+            <div class="item active">
+                <img src="images/slide4.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+
+            <div class="item">
+                <img src="images/slide5.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+
+            <div class="item">
+                <img src="images/slide6.jpg" style="width:100%;">
+                <!-- Included inline because of bootstrap default values -->
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="left carousel-control" style="background-color:rgb(68,114,196)" href="#myCarousel"
+           data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" style="background-color:rgb(68,114,196)" href="#myCarousel"
+           data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+</div> <!-- End Container-fluid -->
 
 
 <!-- Begin Footer = Container -->
+
 <!-- Container-fluid -->
 <div class="container-fluid darkest-grey" style="border-top:1px dashed rgb(50,53,56)">
 
     <!-- Begin Container -->
     <div class="container darkest-grey">
 
+        <footer>
+            <div class="row">
+                <div id="copyright" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-muted text-center">
+                    Copyright © 2021 Powered By <a href="finalProject.html" style="text-decoration:none">Frontenders
+                    - at BIT ever</a> Our Rights Reserved, don't cheat <br>Go back / About something / No-help Center / Don't disturb Us               </ul>
+                </div>
+            </div>
+        </footer>
+
     </div> <!-- End Container -->
 </div> <!-- End Container-fluid -->
-
 
 <!-- Why Work part -->
 
@@ -725,6 +845,10 @@
         });
     }
 </script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 </body>
 </html>
